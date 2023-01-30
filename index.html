@@ -1,0 +1,522 @@
+﻿<!DOCTYPE html>
+<html lang="uk">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="stylesheet" href="css/nullstyle.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
+
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+	<link rel="manifest" href="img/favicon/site.webmanifest">
+	<link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#2d89ef">
+	<meta name="theme-color" content="#ffffff">
+
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900&display=swap" rel="stylesheet">
+
+	<title>Модульний будинок</title>
+</head>
+<body>
+	<div class="wrapper">
+	
+
+		<div class="pop-up" id="pop-up">
+			<div class="pop-up__container">
+				<div class="pop-up__body" id="pop-up__body">
+					<h2>Отримати консультацію</h2>
+					<p>Заповніть форми і ми зателефонуєм</p>
+					<form action="" id="popupForm">
+						<input class="popup-input"type="text" minlength="2" maxlength="15" name="name" placeholder="Ім'я">		
+						<input class="popup-input numbersPopup" type="tel" name="number" id="numbersPopup" placeholder="Номер телефона" required>
+						<div class="button-wrapper">			
+							<button class="popup-btn btn">Надіслати</button>		
+							<p>Натискаючи на кнопку, ви погоджуєтесь <a href="https://qubdom.ru/politika-konfidencialnosti/"> з політикою конфіденційності</a></p>		
+						</div>
+					</form>
+					<div class="pop-up__close" id="pop-up__close">&#10006</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="popup-thanks">
+			<div class="popup-thanks__container">
+				<div class="popup-thanks__body">
+					<h2>Дякуємо за звернення в нашу компанію!</h2>
+					<p>Ми зв'яжемося з Вами протягом 30 хвилин.</p>
+					<span>(в робочий час з 10:00 до 20:00)</span>
+					<img src="img/logo.png">
+					<div class="pop-up__close" id="popup-thanks__close">&#10006</div>
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+		<header class="header">
+			<div class="container">
+				<div class="header__inner">
+					<div class="header__left">
+						
+						<a href="index.html" class="header__logo">
+							<img src="img/logo.png" alt="logo" class="logo__img">
+						</a>
+
+						<!-- <div class="header__location">
+							<img src="img/icon/place.svg" alt="location" class="location__img img">
+							<span>Киев</span>
+						</div> -->
+					</div>
+					<nav class="menu">
+						<ul class="menu__list">
+							<li class="menu__item">
+								<a href="#project" class="menu__link">Проекти</a>
+							</li>
+							<li class="menu__item">
+								<a href="#question" class="menu__link">Запитання / відповіді</a>
+							</li>
+							<li class="menu__item">
+								<a href="#comment" class="menu__link">Відгуки</a>
+							</li>
+							<li class="menu__item">
+								<a href="#contact" class="menu__link">Контакти</a>
+							</li>
+						</ul>
+						<div class="header__right header__right-menu">
+							<div class="header__phone">
+								<img src="img/icon/phone.svg" alt="phone" class="phone__img img">
+								<a href="tel:+380959322466">+38(095)932-24-66</a>
+							</div>
+						</div>
+					</nav>
+					<div class="header__right">
+						<div class="header__phone">
+							<img src="img/icon/phone.svg" alt="phone" class="phone__img img">
+							<a href="tel:+380959322466">+38(095)932-24-66</a>
+						</div>
+					</div>
+					<div class="header__burger">
+						<span></span>
+					</div>
+				</div>
+			</div>
+		</header>
+	
+		<main class="main">
+
+			<section class="home" id="home">
+					<div class="home__slider">
+						<div class="home__image">
+							<img src="img/home/home-slide1.jpg" alt="img" class="home__img">
+						</div>
+						<div class="home__image">
+							<img src="img/home/home-slide2.jpg" alt="img" class="home__img">
+						</div>
+						<div class="home__image">
+							<img src="img/home/home-slide3.jpg" alt="img" class="home__img">
+						</div>
+						<div class="home__image">
+							<img src="img/home/home-slide4.jpg" alt="img" class="home__img">
+						</div>
+						<div class="home__image">
+							<img src="img/home/home-slide5.jpg" alt="img" class="home__img">
+						</div>
+					</div>
+					<div class="container">
+						<div class="home__inner">
+							<div class="home__body">
+								<h1 class="home__title">Модульний будинок</h1>
+								<p class="home__text">З повним оздобленням та комунікаціями. Готовий до заселення відразу після встановлення на ділянці.</p>
+								<a href="#project" class="home__link btn">Обрати проект</a>
+							</div>
+						</div>
+						<div class="home__block">
+							<p class="home__block--title">З доставкою<br><span>для Києва та Київської обл</span>
+							</p>
+						</div>
+					</div>
+			</section>
+				
+
+			<section>
+				<div class="project" id="project">
+					<div class="container">
+						<div class="project__inner">
+							<h2 class="project__title">Наші проекти</h2>
+							<p class="project__text">Готовий будинок для цілорічного проживання з повним оздобленням та комунікаціями без необхідності будівництва на ділянці</p>
+							<div class="project__body">
+								<div class="project__item">
+									<a href="info-house.html" class="project__image" target="_blank">
+										<img src="img/project/house+/pq1.jpg" alt="project" class="project__img img">
+									</a>
+									<h3 class="project__item--title">Проект <span>House +</span><p>47,60м²</p></h3>
+									<div class="project__item--price">від 900 000 ₴ </div>
+									<div class="project__item--term">термін: 30 днів</div>
+									<a href="info-house.html" class="project__item--link btn" target="_blank">Детальніше</a>
+								</div>
+								<div class="project__item">
+									<a href="info-family.html" class="project__image" target="_blank">
+										<img src="img/project/house-family/pf1.jpg" alt="project" class="project__img img">
+									</a>
+									<h3 class="project__item--title">Проект <span>House Family</span><p>74м²</p></h3>
+									<div class="project__item--price">від 1 400 000 ₴</div>
+									<div class="project__item--term">термін: 45 днів</div>
+									<a href="info-family.html" class="project__item--link btn" target="_blank">Детальніше</a>
+								</div>
+								<div class="project__item">
+									<a href="info-banya.html" class="project__image" target="_blank">
+										<img src="img/project/banya/b1.jpg" alt="project" class="project__img img">
+									</a>
+									<h3 class="project__item--title">Проект <span>Баня</span><p>31,5м²</p></h3>
+									<div class="project__item--price">від 600 000 ₴</div>
+									<div class="project__item--term">термін: 20 днів</div>
+									<a href="info-banya.html" class="project__item--link btn" target="_blank">Детальніше</a>
+								</div>
+								<div class="project__item">
+									<a href="info-family-mini.html" class="project__image" target="_blank">
+										<img src="img/project/family-mini/fm1.jpg" alt="project" class="project__img img">
+									</a>
+									<h3 class="project__item--title">Проект <span>House Family mini</span><p>50,50м²</p></h3>
+									<div class="project__item--price">від 1 100 000 ₴</div>
+									<div class="project__item--term">термін: 40 днів</div>
+									<a href="info-family-mini.html" class="project__item--link btn" target="_blank">Детальніше</a>
+								</div>
+								<div class="project__item">
+									<a href="info-family-max.html" class="project__image" target="_blank">
+										<img src="img/project/family-max/fmax.jpg" alt="project" class="project__img img">
+									</a>
+									<h3 class="project__item--title">Проект <span>House Family MAX</span><p>102м²</p></h3>
+									<div class="project__item--price">від 1 900 000 </div>
+									<div class="project__item--term">термін: 70 днів</div>
+									<a href="info-family-max.html" class="project__item--link btn" target="_blank">Детальніше</a>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<div class="advantage">
+				<div class="container">
+					<div class="advantage__inner">
+						<div class="advantage__row">
+							<div class="advantage__column">
+								<div class="advantage__item">
+									<h3 class="advantage__title">Готовий будинок – заїдь і живи</h3>
+									<p class="advantage__text">Готовий будинок з повним оздобленням та комунікаціями: без будівництва та сміття на ділянці. Вам не потрібно відволікатися на дрібниці – ми пропонуємо повністю готове рішення проживання за містом. Будинок готовий до заселення відразу після встановлення на ділянці.</p>
+								</div>
+							</div>
+							<div class="advantage__column advantage__column--time">
+								<div class="advantage__item">
+									<h3 class="advantage__title">Мінімальні терміни будівництва</h3>
+									<p class="advantage__text">За 20 днів зберемо ваш будинок на виробництві. Доставимо на ділянку та встановимо – за один день</p>
+								</div>
+							</div>
+							<div class="advantage__column">
+								<div class="advantage__item">
+									<h3 class="advantage__title">Будинок для цілорічного проживання</h3>
+									<p class="advantage__text">Надійно утеплимо ваш будинок, підключимо теплу підлогу та електричне опалення. Взимку ви зможете зустріти Новий рік, а влітку в будинку гарантовано буде свіже повітря та комфортна температура.</p>
+								</div>
+							</div>
+							<div class="advantage__column">
+								<div class="advantage__item">
+									<h3 class="advantage__title">Енергоефективність</h3>
+									<p class="advantage__text">Будинок збираємо у заводських умовах із застосуванням сухих будівельних матеріалів. Такий підхід гарантує якість побудови, мінімальні тепловтрати, а також допомагає заощадити на опаленні житла.</p>
+								</div>
+							</div>
+							<div class="advantage__column">
+								<div class="advantage__item">
+									<h3 class="advantage__title">Стильний та сучасний дизайн</h3>
+									<p class="advantage__text">Будинки спроектовані таким чином, щоб подарувати вам максимальну зручність та комфорт для проживання. Панорамне скління візуально розширює межі будинку та наповнює приміщення світлом. Фасад будинку виглядає стильно та акуратно, і легко вписується в будь-яку земельну ділянку навіть за наявності інших будівель.</p>
+								</div>
+							</div>
+							<div class="advantage__column advantage__column--cons">
+								<div class="advantage__item ">
+									<a href="#" class="advantage__link btn" id="open__pop-up">Отримати консультацію</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<section class="question" id="question">
+				<div class="container">
+					<h2 class="question__title">Нас часто запитують</h2>
+					<div class="question__inner">
+						<div class="question__items question__items--left">
+							<div class="question__container">
+								<div class="question__block one">
+									<div class="question__block--item">
+										<h3 class="question__block--title">Чи є гарантія на дім?</h3>
+										<div class="question__block--text">Так, ми будуємо за будівельними нормами та правилами, що регламентують будівництво заміських будинків, гарантія додому закріплена у договорі.</div>
+									</div>
+									<div class="question__block--item">
+										<h3 class="question__block--title">Як опалюється будинок?</h3>
+										<div class="question__block--text">Будинок опалюється електричними теплими підлогами. Можливе встановлення дров'яного каміна або конвекторів.</div>
+									</div>
+									<div class="question__block--item">
+										<h3 class="question__block--title">З яких матеріалів будуєте?</h3>
+										<div class="question__block--text">Каркас із масиву дерева хвойних порід.
+											Утеплювач: кам'яна вата 200мм
+											Внутрішнє оздоблення: підлога - ламінат, стіни та стеля: імітація бруса в комбінації з планкеном.
+											Скління: Енергозберігаючі склопакети.</div>
+									</div>
+									<div class="question__block--item">
+										<h3 class="question__block--title">Як відбувається оплата?</h3>
+										<div class="question__block--text">Передплата за договором 70%, залишок після здачі готового проекту.</div>
+									</div>
+									<div class="question__block--item">
+										<h3 class="question__block--title">Чи можна замовити проект без меблів?</h3>
+										<div class="question__block--text">Так, можна вибрати мінімальну комплектацію без меблів.</div>
+									</div>
+									<div class="question__block--item">
+										<h3 class="question__block--title">Чи входить доставка у вартість проекту?</h3>
+										<div class="question__block--text">Так, в межах 100 км від виробництва</div>
+									</div>
+									<div class="question__block--item">
+										<h3 class="question__block--title">Який потрібний фундамент?</h3>
+										<div class="question__block--text">Металеві палі Ø108х2,5м включені у вартість будинку (в межах 100км від виробництва)</div>
+									</div>
+									<div class="question__block--item">
+										<h3 class="question__block--title">Чи можливо купити будинок в іпотеку чи кредит?</h3>
+										<div class="question__block--text">Так можливо</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="question__items question__items--right">
+							<div class="question__image">
+								<img src="img/decore/question.svg" alt="question" class="question__img img">
+							</div>
+							<form action="#">
+								<div class="contact__form">
+									<h3 class="contact__form--title">Залишились питання?</h3>
+									<p class="contact__form--text">Заповніть форми і ми передзвонимо</p>
+									<div class="contact__input">
+										<input type="text" class="contact__name" placeholder="Ім'я">
+									</div>
+									<div class="contact__input">
+										<input type="tel" class="contact__name" placeholder="Номер телефона">
+									</div>
+									<div class="contact__item">
+										<button class="contact__btn btn" type="submit">задати питання</button>
+										<p class="contact__item--text">Натискаючи на кнопку, ви погоджуєтесь
+											<a href="https://qubdom.ru/politika-konfidencialnosti/">з політикою конфіденційності</a>
+										</p>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+			<section class="steps">
+				<div class="container">
+					<div class="steps__inner">
+						<h2 class="steps__title">3 кроки - і все готове</h2>
+						<div class="steps__row">
+							<div class="steps__column">
+								<div class="steps__item">
+									<div class="steps__item-block">
+										<h3 class="steps__name">Договір</h3>
+										<div class="steps__number">01</div>
+									</div>
+									<p class="steps__text">Ми обговоримо деталі проекту, призначимо зустріч на ділянці, проведемо огляд території, підготуємо договір та розпочнемо роботу.</p>
+									<a href="#" class="steps__link btn" id="open__pop-up-two">Залишити заявку</a>
+								</div>
+							</div>
+							<div class="steps__column steps__column--time">
+								<div class="steps__item">
+									<div class="steps__item-block">
+										<h3 class="steps__name">Виробництво</h3>
+										<div class="steps__number">02</div>
+									</div>
+									<p class="steps__text">За 20 днів зберемо будинок на нашому виробництві, підберемо меблі, техніку та комплектуючі.</p>
+								</div>
+							</div>
+							<div class="steps__column">
+								<div class="steps__item">
+									<div class="steps__item-block">
+										<h3 class="steps__name">Встановлення будинку на місці</h3>
+										<div class="steps__number">03</div>
+									</div>
+									<p class="steps__text">Привезем готовый дом на ваш участок, подключим все коммуникации, расставим мебель и передадим ключи от нового дома.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<div class="gallery">
+				<div class="container container__gallery">
+					<div class="gallery__slider">
+						<div class="gallery__image">
+							<img src="img/home/home-slide1.jpg" alt="gallery" class="gallery__img">
+						</div>
+						<div class="gallery__image">
+							<img src="img/home/home-slide2.jpg" alt="gallery" class="gallery__img">
+						</div>
+						<div class="gallery__image">
+							<img src="img/home/home-slide3.jpg" alt="gallery" class="gallery__img">
+						</div>
+						<div class="gallery__image">
+							<img src="img/home/home-slide4.jpg" alt="gallery" class="gallery__img">
+						</div>
+						<div class="gallery__image">
+							<img src="img/home/home-slide5.jpg" alt="gallery" class="gallery__img">
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<section class="comment" id="comment">
+				<div class="container">
+					<h2 class="comment__title">Відгуки про нас</h2>
+					<div class="comment__inner">
+		
+						<div class="comment__column">
+							<div class="comment__item">
+								<p class="comment__text">Я змушена використовувати допоміжні компоненти, впливати на організм зсередини. Мені важливий результат, а результат залежить від використовуваних мною засобів – тому я вибираю 4FOOD company</p>
+								<div class="comment__name">Аміра Х.</div>
+								<div class="comment__profession">Лікар-подолог</div>
+							</div>
+						</div>
+						<div class="comment__column">
+							<div class="comment__item">
+								<p class="comment__text">Я змушена використовувати допоміжні компоненти, впливати на організм зсередини. Мені важливий результат, а результат залежить від використовуваних мною засобів – тому я вибираю 4FOOD company</p>
+								<div class="comment__name">Аміра Х.</div>
+								<div class="comment__profession">Лікар-подолог</div>
+							</div>
+						</div>
+						<div class="comment__column">
+							<div class="comment__item">
+								<p class="comment__text">Я змушена використовувати допоміжні компоненти, впливати на організм зсередини. Мені важливий результат, а результат залежить від використовуваних мною засобів – тому я вибираю 4FOOD company</p>
+								<div class="comment__name">Аміра Х.</div>
+								<div class="comment__profession">Лікар-подолог</div>
+							</div>
+						</div>
+						<div class="comment__column">
+							<div class="comment__item">
+								<p class="comment__text">Я дуже люблю біг та спорт, але не завжди на все вистачає сил, тому я використовую БАДи, щоб тримати себе у формі. Продукція 4FOOD company мене повністю влаштовує.</p>
+								<div class="comment__name">Марія Х.</div>
+								<div class="comment__profession">Спортсменка</div>
+							</div>
+						</div>
+						<div class="comment__column">
+							<div class="comment__item">
+								<p class="comment__text">Я завжди прагнув вести здоровий спосіб життя, але було важко відмовитись від шкідливих звичок і прищепити собі правильне харчування. БАДи 4FOOD company допомогли мені пройти важкий період адаптації до нового життя. Я задоволений усім!</p>
+								<div class="comment__name">Максим Д.</div>
+								<div class="comment__profession">Клієнт</div>
+							</div>
+						</div>
+						<div class="comment__column">
+							<div class="comment__item">
+								<p class="comment__text">Я дуже люблю біг та спорт, але не завжди на все вистачає сил, тому я використовую БАДи, щоб тримати себе у формі. Продукція 4FOOD company мене повністю влаштовує.</p>
+								<div class="comment__name">Марія Х.</div>
+								<div class="comment__profession">Спортсменка</div>
+							</div>
+						</div>
+		
+					</div>
+				</div>
+			</section>
+
+
+			<section class="contact" id="contact">
+				<div class="container">
+					<h2 class="contact__title">Контакти</h2>
+					<div class="contact__inner">
+						<div class="contact__items">
+							<div class="contact__block">
+								<div>Tel: <a href="tel:+380959322466" class="contact__link contact__link-contact">+38 (095) 932-24-66</a></div>
+								<div>Е-mail: <a href="mailto:" class="contact__link contact__link-contact">zmkua@ukr.net</a></div>
+								<div class="contact__text">Адреса: <span>м. Бровари, Київська область, вулиця Броварської сотні, 3.</span></div>
+							</div>
+						</div>
+						<div class="contact__map">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2537.0909996971145!2d30.830665200000002!3d50.513873600000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4d938171e7117%3A0x6eafe9a454a07678!2z0LLRg9C70LjRhtGPINCR0YDQvtCy0LDRgNGB0YzQutC-0Zcg0YHQvtGC0L3RliwgMywg0JHRgNC-0LLQsNGA0LgsINCa0LjRl9Cy0YHRjNC60LAg0L7QsdC7LiwgMDc0NTE!5e0!3m2!1suk!2sua!4v1675021706765!5m2!1suk!2sua" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+
+
+		<a href="https://t.me/Pavel_2806" class="phone-footer" target="_blank">
+			<i></i>
+	  	</a>
+
+
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__inner header__inner">
+					<div class="footer__left header__left">
+						<a href="index.html" class="footer__logo header__logo">
+							<img src="img/logo.png" alt="logo" class="logo__img">
+						</a>
+					</div>
+					<nav class="footer-menu">
+						<ul class="footer-menu--list menu__list">
+							<li class="footer-menu__item">
+								<a href="#project" class="footer-menu__link">Проекти</a>
+							</li>
+							<li class="footer-menu__item">
+								<a href="#question" class="footer-menu__link">Запитання / відповіді</a>
+							</li>
+							<li class="footer-menu__item">
+								<a href="#comment" class="footer-menu__link">Відгуки</a>
+							</li>
+							<li class="footer-menu__item">
+								<a href="#contact" class="footer-menu__link">Контакти</a>
+							</li>
+							<li class="footer-menu__item">
+								<a href="http://www.instagram.com/zmk.ua" class="menu__social" target="_blank">
+									<img src="img/icon/instagram.svg" alt="social" class="social__img">
+								</a>
+							</li>
+							<div class="footer__right">
+								<div class="footer__phone header__phone">
+									<img src="img/icon/phone.svg" alt="phone" class="phone__img img">
+									<a href="tel:+380959322466">+38 (095) 932-24-66</a>
+								</div>
+							</div>
+						</ul>
+					</nav>
+
+				</div>
+				<div class="footer__bottom">
+					<a class="policy" href="https://qubdom.ru/politika-konfidencialnosti/">Політика конфіденційності</a>
+					<div class="footer__cooper text">Copyright ©
+						<a href="https://dimafomaa.online" class="footer__link-bio" target="_blank">dimafomaa</a>, 2023. All rights reserved.
+					</div>
+				</div>
+			</div>
+		</footer>
+	
+
+		<a href="#" class="scroll-up" id="scroll-up">
+			<i class="fa-solid fa-angles-up"></i>
+	  	</a>
+
+
+
+
+	</div>
+
+	<script src="https://kit.fontawesome.com/b2c89e649a.js" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
